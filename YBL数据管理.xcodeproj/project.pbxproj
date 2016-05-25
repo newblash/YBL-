@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8B38D58D1482D693F565858 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C4C9D33F84B6DC07AAB465 /* libPods.a */; };
+		DC4B33921CEA09F6001E2ED4 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4B33911CEA09F6001E2ED4 /* SweetAlert.swift */; };
+		DC67DAD61CD105D100A93B4C /* kehuInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67DAD51CD105D100A93B4C /* kehuInfoViewController.swift */; };
+		DC6845B21CEDFA100019EEDD /* AddKehuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6845B11CEDFA100019EEDD /* AddKehuTableViewController.swift */; };
+		DC6845B41CEE08E80019EEDD /* clerkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6845B31CEE08E80019EEDD /* clerkTableViewController.swift */; };
+		DC68D8461CEB041B00F38B1F /* login1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68D8451CEB041B00F38B1F /* login1ViewController.swift */; };
+		DC69563F1CC902FC004A3D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69563E1CC902FC004A3D05 /* AppDelegate.swift */; };
+		DC6956441CC902FC004A3D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6956421CC902FC004A3D05 /* Main.storyboard */; };
+		DC6956461CC902FC004A3D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6956451CC902FC004A3D05 /* Assets.xcassets */; };
+		DC6956491CC902FC004A3D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6956471CC902FC004A3D05 /* LaunchScreen.storyboard */; };
+		DC6956531CC9037C004A3D05 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = DC6956521CC9037C004A3D05 /* PodFile */; };
+		DC69565D1CC91BB5004A3D05 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6956581CC91BB5004A3D05 /* loginViewController.swift */; };
+		DC69565F1CC91BB5004A3D05 /* woViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69565A1CC91BB5004A3D05 /* woViewController.swift */; };
+		DC69967B1CDB8EB4007A59DF /* kehuInfo_0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69967A1CDB8EB4007A59DF /* kehuInfo_0ViewController.swift */; };
+		DC69EE031CCE3E5A002378CE /* TB2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69EE021CCE3E5A002378CE /* TB2ViewController.swift */; };
+		DC69EE051CCE3E79002378CE /* kehu2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69EE041CCE3E79002378CE /* kehu2TableViewController.swift */; };
+		DC69EE071CCE3EA0002378CE /* wo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69EE061CCE3EA0002378CE /* wo2ViewController.swift */; };
+		DC69EE0A1CCE4161002378CE /* AddKeHuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69EE091CCE4161002378CE /* AddKeHuViewController.swift */; };
+		DC6B34F51CCA2BF3007C6C5C /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B34F41CCA2BF3007C6C5C /* TBViewController.swift */; };
+		DC6B34F71CCA2BFD007C6C5C /* kehuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B34F61CCA2BFD007C6C5C /* kehuTableViewController.swift */; };
+		DC6B34F91CCA2D47007C6C5C /* YBLdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B34F81CCA2D47007C6C5C /* YBLdata.swift */; };
+		DC6B35001CCA3829007C6C5C /* SuperAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B34FF1CCA3829007C6C5C /* SuperAdminViewController.swift */; };
+		DC6B35061CCA4B20007C6C5C /* kehu1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B35051CCA4B20007C6C5C /* kehu1TableViewController.swift */; };
+		DC6B35081CCA4BA3007C6C5C /* TB1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B35071CCA4BA3007C6C5C /* TB1ViewController.swift */; };
+		DC72022D1CCFAE1A00E53AB3 /* KeHuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72022C1CCFAE1A00E53AB3 /* KeHuData.swift */; };
+		DC834B171CD250BD00248573 /* kehuInfo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC834B161CD250BD00248573 /* kehuInfo1ViewController.swift */; };
+		DCC7A8A41CE8A735000A91F6 /* kehuInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7A8A31CE8A735000A91F6 /* kehuInfoTableViewController.swift */; };
+		DCC7A8A61CE8BF56000A91F6 /* RowInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7A8A51CE8BF56000A91F6 /* RowInfoTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		114D454DB8BB8B1DA2AEDCC5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		35C4C9D33F84B6DC07AAB465 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1D7B3984343D2694A5A1A5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4B33911CEA09F6001E2ED4 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		DC67DAD51CD105D100A93B4C /* kehuInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kehuInfoViewController.swift; sourceTree = "<group>"; };
+		DC6845B11CEDFA100019EEDD /* AddKehuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddKehuTableViewController.swift; sourceTree = "<group>"; };
+		DC6845B31CEE08E80019EEDD /* clerkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clerkTableViewController.swift; sourceTree = "<group>"; };
+		DC68D8451CEB041B00F38B1F /* login1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login1ViewController.swift; sourceTree = "<group>"; };
+		DC69563B1CC902FC004A3D05 /* YBL数据管理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YBL数据管理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC69563E1CC902FC004A3D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		DC6956431CC902FC004A3D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC6956451CC902FC004A3D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC6956481CC902FC004A3D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC69564A1CC902FC004A3D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6956521CC9037C004A3D05 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		DC6956541CC90832004A3D05 /* 伊百丽(华容店)无纸化信息管理-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "伊百丽(华容店)无纸化信息管理-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC6956581CC91BB5004A3D05 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loginViewController.swift; path = ../loginViewController.swift; sourceTree = "<group>"; };
+		DC69565A1CC91BB5004A3D05 /* woViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = woViewController.swift; path = ../woViewController.swift; sourceTree = "<group>"; };
+		DC69967A1CDB8EB4007A59DF /* kehuInfo_0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kehuInfo_0ViewController.swift; sourceTree = "<group>"; };
+		DC69EE021CCE3E5A002378CE /* TB2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TB2ViewController.swift; sourceTree = "<group>"; };
+		DC69EE041CCE3E79002378CE /* kehu2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kehu2TableViewController.swift; sourceTree = "<group>"; };
+		DC69EE061CCE3EA0002378CE /* wo2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wo2ViewController.swift; sourceTree = "<group>"; };
+		DC69EE091CCE4161002378CE /* AddKeHuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddKeHuViewController.swift; sourceTree = "<group>"; };
+		DC6B34F41CCA2BF3007C6C5C /* TBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TBViewController.swift; path = ../TBViewController.swift; sourceTree = "<group>"; };
+		DC6B34F61CCA2BFD007C6C5C /* kehuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = kehuTableViewController.swift; path = ../kehuTableViewController.swift; sourceTree = "<group>"; };
+		DC6B34F81CCA2D47007C6C5C /* YBLdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YBLdata.swift; path = ../YBLdata.swift; sourceTree = "<group>"; };
+		DC6B34FF1CCA3829007C6C5C /* SuperAdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperAdminViewController.swift; sourceTree = "<group>"; };
+		DC6B35051CCA4B20007C6C5C /* kehu1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kehu1TableViewController.swift; sourceTree = "<group>"; };
+		DC6B35071CCA4BA3007C6C5C /* TB1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TB1ViewController.swift; sourceTree = "<group>"; };
+		DC6B35091CCA7670007C6C5C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		DC72022C1CCFAE1A00E53AB3 /* KeHuData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeHuData.swift; sourceTree = "<group>"; };
+		DC834B161CD250BD00248573 /* kehuInfo1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kehuInfo1ViewController.swift; sourceTree = "<group>"; };
+		DCC7A8A31CE8A735000A91F6 /* kehuInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kehuInfoTableViewController.swift; sourceTree = "<group>"; };
+		DCC7A8A51CE8BF56000A91F6 /* RowInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowInfoTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6956381CC902FC004A3D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B38D58D1482D693F565858 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8446AA65DDC11C8AFA23BD34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D7B3984343D2694A5A1A5 /* Pods.debug.xcconfig */,
+				114D454DB8BB8B1DA2AEDCC5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D63BD4953C8A4682100B26DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C4C9D33F84B6DC07AAB465 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC6956321CC902FC004A3D05 = {
+			isa = PBXGroup;
+			children = (
+				DC6956541CC90832004A3D05 /* 伊百丽(华容店)无纸化信息管理-Bridging-Header.h */,
+				DC6956521CC9037C004A3D05 /* PodFile */,
+				DC69563D1CC902FC004A3D05 /* 伊百丽(华容店)无纸化信息管理 */,
+				DC69563C1CC902FC004A3D05 /* Products */,
+				8446AA65DDC11C8AFA23BD34 /* Pods */,
+				D63BD4953C8A4682100B26DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC69563C1CC902FC004A3D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC69563B1CC902FC004A3D05 /* YBL数据管理.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC69563D1CC902FC004A3D05 /* 伊百丽(华容店)无纸化信息管理 */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B34FC1CCA340B007C6C5C /* 超级管理员 */,
+				DC6B34FB1CCA33FC007C6C5C /* 设计师 */,
+				DC6B34FA1CCA33F0007C6C5C /* 业务员 */,
+				DC69EE081CCE3EBF002378CE /* 入口和数据 */,
+				DC6956421CC902FC004A3D05 /* Main.storyboard */,
+				DC6956451CC902FC004A3D05 /* Assets.xcassets */,
+				DC6956471CC902FC004A3D05 /* LaunchScreen.storyboard */,
+				DC69564A1CC902FC004A3D05 /* Info.plist */,
+				DC6B35091CCA7670007C6C5C /* MyPlayground.playground */,
+			);
+			path = "伊百丽(华容店)无纸化信息管理";
+			sourceTree = "<group>";
+		};
+		DC69EE081CCE3EBF002378CE /* 入口和数据 */ = {
+			isa = PBXGroup;
+			children = (
+				DC4B33911CEA09F6001E2ED4 /* SweetAlert.swift */,
+				DC69563E1CC902FC004A3D05 /* AppDelegate.swift */,
+				DC6956581CC91BB5004A3D05 /* loginViewController.swift */,
+				DC68D8451CEB041B00F38B1F /* login1ViewController.swift */,
+				DC6B34F81CCA2D47007C6C5C /* YBLdata.swift */,
+				DC72022C1CCFAE1A00E53AB3 /* KeHuData.swift */,
+			);
+			path = "入口和数据";
+			sourceTree = "<group>";
+		};
+		DC6B34FA1CCA33F0007C6C5C /* 业务员 */ = {
+			isa = PBXGroup;
+			children = (
+				DC69EE021CCE3E5A002378CE /* TB2ViewController.swift */,
+				DC69EE041CCE3E79002378CE /* kehu2TableViewController.swift */,
+				DCC7A8A31CE8A735000A91F6 /* kehuInfoTableViewController.swift */,
+				DCC7A8A51CE8BF56000A91F6 /* RowInfoTableViewController.swift */,
+				DC69EE061CCE3EA0002378CE /* wo2ViewController.swift */,
+				DC6845B11CEDFA100019EEDD /* AddKehuTableViewController.swift */,
+				DC69EE091CCE4161002378CE /* AddKeHuViewController.swift */,
+				DC67DAD51CD105D100A93B4C /* kehuInfoViewController.swift */,
+			);
+			path = "业务员";
+			sourceTree = "<group>";
+		};
+		DC6B34FB1CCA33FC007C6C5C /* 设计师 */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B34F41CCA2BF3007C6C5C /* TBViewController.swift */,
+				DC69565A1CC91BB5004A3D05 /* woViewController.swift */,
+				DC6B34F61CCA2BFD007C6C5C /* kehuTableViewController.swift */,
+				DC834B161CD250BD00248573 /* kehuInfo1ViewController.swift */,
+			);
+			path = "设计师";
+			sourceTree = "<group>";
+		};
+		DC6B34FC1CCA340B007C6C5C /* 超级管理员 */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B35071CCA4BA3007C6C5C /* TB1ViewController.swift */,
+				DC6B34FF1CCA3829007C6C5C /* SuperAdminViewController.swift */,
+				DC6845B31CEE08E80019EEDD /* clerkTableViewController.swift */,
+				DC6B35051CCA4B20007C6C5C /* kehu1TableViewController.swift */,
+				DC69967A1CDB8EB4007A59DF /* kehuInfo_0ViewController.swift */,
+			);
+			path = "超级管理员";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC69563A1CC902FC004A3D05 /* YBL数据管理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC69564D1CC902FC004A3D05 /* Build configuration list for PBXNativeTarget "YBL数据管理" */;
+			buildPhases = (
+				B9DCA7549DF47D305AC93C2A /* Check Pods Manifest.lock */,
+				DC6956371CC902FC004A3D05 /* Sources */,
+				DC6956381CC902FC004A3D05 /* Frameworks */,
+				DC6956391CC902FC004A3D05 /* Resources */,
+				8738A73CB945498FAB7C27BF /* Embed Pods Frameworks */,
+				8742F7D9F95A5F1D783E4B27 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YBL数据管理";
+			productName = "伊百丽(华容店)无纸化信息管理";
+			productReference = DC69563B1CC902FC004A3D05 /* YBL数据管理.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6956331CC902FC004A3D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YJ;
+				TargetAttributes = {
+					DC69563A1CC902FC004A3D05 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZHM9V6NKBW;
+					};
+				};
+			};
+			buildConfigurationList = DC6956361CC902FC004A3D05 /* Build configuration list for PBXProject "YBL数据管理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6956321CC902FC004A3D05;
+			productRefGroup = DC69563C1CC902FC004A3D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC69563A1CC902FC004A3D05 /* YBL数据管理 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6956391CC902FC004A3D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6956491CC902FC004A3D05 /* LaunchScreen.storyboard in Resources */,
+				DC6956461CC902FC004A3D05 /* Assets.xcassets in Resources */,
+				DC6956531CC9037C004A3D05 /* PodFile in Resources */,
+				DC6956441CC902FC004A3D05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8738A73CB945498FAB7C27BF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8742F7D9F95A5F1D783E4B27 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DCA7549DF47D305AC93C2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6956371CC902FC004A3D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6B34F71CCA2BFD007C6C5C /* kehuTableViewController.swift in Sources */,
+				DC834B171CD250BD00248573 /* kehuInfo1ViewController.swift in Sources */,
+				DC67DAD61CD105D100A93B4C /* kehuInfoViewController.swift in Sources */,
+				DC6B35001CCA3829007C6C5C /* SuperAdminViewController.swift in Sources */,
+				DC6B34F51CCA2BF3007C6C5C /* TBViewController.swift in Sources */,
+				DC69565F1CC91BB5004A3D05 /* woViewController.swift in Sources */,
+				DCC7A8A41CE8A735000A91F6 /* kehuInfoTableViewController.swift in Sources */,
+				DC69563F1CC902FC004A3D05 /* AppDelegate.swift in Sources */,
+				DC69EE071CCE3EA0002378CE /* wo2ViewController.swift in Sources */,
+				DC72022D1CCFAE1A00E53AB3 /* KeHuData.swift in Sources */,
+				DC69967B1CDB8EB4007A59DF /* kehuInfo_0ViewController.swift in Sources */,
+				DC6845B41CEE08E80019EEDD /* clerkTableViewController.swift in Sources */,
+				DC4B33921CEA09F6001E2ED4 /* SweetAlert.swift in Sources */,
+				DC6845B21CEDFA100019EEDD /* AddKehuTableViewController.swift in Sources */,
+				DC69EE051CCE3E79002378CE /* kehu2TableViewController.swift in Sources */,
+				DC69EE031CCE3E5A002378CE /* TB2ViewController.swift in Sources */,
+				DC6B34F91CCA2D47007C6C5C /* YBLdata.swift in Sources */,
+				DC69EE0A1CCE4161002378CE /* AddKeHuViewController.swift in Sources */,
+				DC6B35081CCA4BA3007C6C5C /* TB1ViewController.swift in Sources */,
+				DC68D8461CEB041B00F38B1F /* login1ViewController.swift in Sources */,
+				DC6B35061CCA4B20007C6C5C /* kehu1TableViewController.swift in Sources */,
+				DC69565D1CC91BB5004A3D05 /* loginViewController.swift in Sources */,
+				DCC7A8A61CE8BF56000A91F6 /* RowInfoTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC6956421CC902FC004A3D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6956431CC902FC004A3D05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC6956471CC902FC004A3D05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6956481CC902FC004A3D05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC69564B1CC902FC004A3D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC69564C1CC902FC004A3D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC69564E1CC902FC004A3D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1D7B3984343D2694A5A1A5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "伊百丽(华容店)无纸化信息管理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.752050750-qq.---------------";
+				PRODUCT_NAME = "YBL数据管理";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "伊百丽(华容店)无纸化信息管理-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC69564F1CC902FC004A3D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1D7B3984343D2694A5A1A5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "伊百丽(华容店)无纸化信息管理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.752050750-qq.---------------";
+				PRODUCT_NAME = "YBL数据管理";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "伊百丽(华容店)无纸化信息管理-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6956361CC902FC004A3D05 /* Build configuration list for PBXProject "YBL数据管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC69564B1CC902FC004A3D05 /* Debug */,
+				DC69564C1CC902FC004A3D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC69564D1CC902FC004A3D05 /* Build configuration list for PBXNativeTarget "YBL数据管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC69564E1CC902FC004A3D05 /* Debug */,
+				DC69564F1CC902FC004A3D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6956331CC902FC004A3D05 /* Project object */;
+}
